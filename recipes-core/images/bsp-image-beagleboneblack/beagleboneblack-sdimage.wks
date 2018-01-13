@@ -1,0 +1,2 @@
+part /boot --source=bootimg-partition --ondisk=mmcblk0 --fstype=vfat --label=boot --active --align=1024 --size=64M
+part / --source=rootfs --ondisk=mmcblk0 --fstype=ext4 --label=root --align=1024 --size=1024M

@@ -1,0 +1,5 @@
+define KMACHINE beagleboneblack
+define KTYPE standard
+define KARCH arm
+
+kconf hardware beagleboneblack.cfg
